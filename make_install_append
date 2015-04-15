@@ -1,0 +1,2 @@
+install -d -m 755 %{buildroot}/usr/share/defaults/pound/
+install -p -D -m 644 etc/pound/pound.cfg %{buildroot}/usr/share/defaults/pound/pound.cfg.sample
