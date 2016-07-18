@@ -4,7 +4,7 @@
 #
 Name     : Pound
 Version  : 2.7
-Release  : 7
+Release  : 8
 URL      : http://www.apsis.ch/pound/Pound-2.7.tgz
 Source0  : http://www.apsis.ch/pound/Pound-2.7.tgz
 Summary  : No detailed summary available
@@ -58,8 +58,9 @@ doc components for the Pound package.
 %patch2 -p1
 
 %build
+export LANG=C
 %configure --disable-static
-make V=1 %{?_smp_mflags}
+make V=1  %{?_smp_mflags}
 
 %install
 rm -rf %{buildroot}
