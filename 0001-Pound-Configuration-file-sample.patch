@@ -1,6 +1,6 @@
-From d0798d4301fa0cb77a1da22bb36daff9e09acb9d Mon Sep 17 00:00:00 2001
+From 540168f4a836404dc24131ed8ee0334e23059da5 Mon Sep 17 00:00:00 2001
 From: "Munoz, Obed N" <obed.n.munoz@intel.com>
-Date: Fri, 17 Apr 2015 11:17:49 -0500
+Date: Mon, 18 Jul 2016 17:21:52 -0500
 Subject: [PATCH] Pound Configuration file sample
 
 Signed-off-by: Munoz, Obed N <obed.n.munoz@intel.com>
@@ -11,7 +11,7 @@ Signed-off-by: Munoz, Obed N <obed.n.munoz@intel.com>
 
 diff --git a/etc/pound/pound.cfg b/etc/pound/pound.cfg
 new file mode 100644
-index 0000000..fda8a07
+index 0000000..cc77733
 --- /dev/null
 +++ b/etc/pound/pound.cfg
 @@ -0,0 +1,85 @@
@@ -70,7 +70,7 @@ index 0000000..fda8a07
 +##
 +## Configure services and backends for the HTTP reverse proxy.
 +#ListenHTTP
-+#    Address  10.0.0.1
++#    Address  127.0.0.1
 +#    Port     80
 +#    Service
 +#        BackEnd
@@ -86,7 +86,7 @@ index 0000000..fda8a07
 +##
 +## Configure services and backends for the HTTPS reverse proxy.
 +#ListenHTTPS
-+#    Address  10.0.0.1
++#    Address  127.0.0.1
 +#    Port     443
 +#    Cert     "/etc/ssl/certs/pound.pem"
 +#    Service
@@ -101,5 +101,5 @@ index 0000000..fda8a07
 +#    End
 +#End
 -- 
-2.3.5
+2.9.0
 
