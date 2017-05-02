@@ -4,7 +4,7 @@
 #
 Name     : Pound
 Version  : 2.7
-Release  : 9
+Release  : 10
 URL      : http://www.apsis.ch/pound/Pound-2.7.tgz
 Source0  : http://www.apsis.ch/pound/Pound-2.7.tgz
 Summary  : No detailed summary available
